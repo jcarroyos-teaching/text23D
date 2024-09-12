@@ -1,9 +1,5 @@
 # Dibujar en processing la consulta API Wordpress
 
-> Este código recupera datos dinámicamente de una API externa y los utiliza para crear una experiencia visual.
-
-JavaScript diseñado para ejecutarse en el entorno p5.js, recupera la cantidad de publicaciones de un sitio gratuito en WordPress.com y usa este recuento para dibujar círculos en un lienzo.
-
 El código comienza declarando varias variables: posiciones para almacenar las coordenadas de los círculos, `postCount` para almacenar el número de publicaciones, constantes y diámetro de lo círculos. La función de configuración inicializa el lienzo, establece el color de fondo y establece la velocidad de fotogramas.
 
 La función `getPostCount`, que obtiene el recuento de publicaciones de la API de WordPress. Una vez que se recupera el recuento, calcula las coordenadas `x` y `y` máximas para los círculos, asegurándose de que permanezcan dentro de los límites del lienzo.
